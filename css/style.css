@@ -613,18 +613,26 @@ a:hover {
 }
 
 .buy_bt a {
-    width: 100%;
-    font-size: 16px;
-    color: #f26522;
-    background-color: transparent;
-    text-align: right;
+    width: 80%; /* Disminuí el ancho del botón */
+    font-size: 14px; /* Reduje el tamaño de la fuente */
+    color: #fff;
+    background-color: #25D366; /* Verde de WhatsApp */
+    padding: 8px 15px; /* Ajusté el padding para hacerlo más pequeño */
+    border-radius: 30px; /* Manteniendo bordes circulares */
+    text-align: center;
     font-weight: bold;
-}
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .buy_bt a:hover {
+    background-color: #128C7E; /* Un tono más oscuro de verde para hover */
+    color: #fff;
+  }
+  
 
-.buy_bt a:hover {
-    background-color: transparent;
-    color: #262626;
-}
+  
+
 
 .seemore_bt {
     width: 100%;
